@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+krx_*.csv
+*_output.txt
+*_run.txt
+overlap_windows.json
+fig/
+graduation_extension_results/forecasts.csv.gz
+graduation_extension_results/validation.json
+graduation_extension_results/design.json
+symmetric_extension_results/forecasts_log.csv.gz
+symmetric_extension_results/validation.json
+sensitivity/results/forecast_rows.csv
+sensitivity/results/validation.json

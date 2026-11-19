@@ -1,0 +1,61 @@
+{
+  "precision_digits": 40,
+  "checks_passed": {
+    "positive_beta_derivative_signs": 336,
+    "negative_even_monotonicity": 45,
+    "negative_odd_convexity": 60,
+    "duality_identities": 60,
+    "uniform_path_bounds": 63,
+    "derivative_formula_checks": 27,
+    "origin_extensions": 63,
+    "whole_domain_identities": 28
+  },
+  "max_duality_absolute_error": "2.350988702e-38",
+  "max_derivative_formula_absolute_error": "5.877471754e-39",
+  "thresholds": {
+    "0": {
+      "odd_order": 1,
+      "b_m": "2.4912775674472295378426",
+      "residual": "7.8991161e-23"
+    },
+    "1": {
+      "odd_order": 3,
+      "b_m": "1.84285133078746531020736",
+      "residual": "-1.2450456e-22"
+    },
+    "2": {
+      "odd_order": 5,
+      "b_m": "1.61227429853529446502423",
+      "residual": "3.4752225e-23"
+    },
+    "3": {
+      "odd_order": 7,
+      "b_m": "1.48948753132882953937279",
+      "residual": "1.877824e-22"
+    }
+  },
+  "local_minimizer_slopes": [
+    {
+      "n": 1,
+      "analytic": "-0.666666666666666667",
+      "central_difference": "-0.666666666733827161"
+    },
+    {
+      "n": 3,
+      "analytic": "-1.2",
+      "central_difference": "-1.20000000011622857"
+    },
+    {
+      "n": 5,
+      "analytic": "-1.71428571428571429",
+      "central_difference": "-1.71428571441842566"
+    },
+    {
+      "n": 7,
+      "analytic": "-2.22222222222222222",
+      "central_difference": "-2.22222222231579166"
+    }
+  ],
+  "status": "all checks passed",
+  "qualification": "Numerical checks do not replace the analytic proofs."
+}

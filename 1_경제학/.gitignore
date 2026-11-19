@@ -1,0 +1,13 @@
+# Locally acquired KRX source data are not part of the public repository.
+/replication/krx_*.csv
+
+# Generated outputs remain local unless separately selected for publication.
+/replication/replication_output.txt
+/replication/accounting_sensitivity_results.json
+/replication/accounting_sensitivity_summary.csv
+/replication/accounting_sensitivity_output.txt
+/replication/intro_drawdown_output.json
+
+__pycache__/
+*.py[cod]
+.venv/

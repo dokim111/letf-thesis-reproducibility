@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*_run.txt
+*_output.txt
+math_tables.json
+fig/
+krx_*.csv

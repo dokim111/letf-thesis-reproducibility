@@ -1,0 +1,16 @@
+\begin{table}[htbp]\centering\small
+\caption{수준·원자료 사양의 상장 후 양수 투영과 QLIKE}\label{tab:qlike_projection}
+\begin{tabular}{lrrrrrr}\toprule
+종목 & $\beta$ & $h$ & 음수 예측 & M1 & M2($10^{-8}$) & M2($10^{-6}$)\\\midrule
+삼성전자 & $+2$ & 5 & 1 & 0.465 & $1.30\times10^{4}$ & $1.30\times10^{2}$\\
+삼성전자 & $-2$ & 5 & 2 & 0.506 & $5.60\times10^{4}$ & $5.61\times10^{2}$\\
+삼성전자 & $+2$ & 20 & 0 & 0.453 & 0.577 & 0.577\\
+삼성전자 & $-2$ & 20 & 0 & 0.476 & 0.649 & 0.649\\
+SK하이닉스 & $+2$ & 5 & 3 & 0.507 & $2.05\times10^{4}$ & $2.05\times10^{2}$\\
+SK하이닉스 & $-2$ & 5 & 8 & 0.524 & $2.78\times10^{5}$ & $2.78\times10^{3}$\\
+SK하이닉스 & $+2$ & 20 & 1 & 0.503 & $6.75\times10^{4}$ & $6.75\times10^{2}$\\
+SK하이닉스 & $-2$ & 20 & 1 & 0.468 & $1.97\times10^{5}$ & $1.97\times10^{3}$\\
+\bottomrule\end{tabular}
+\smallskip
+\begin{minipage}{0.97\textwidth}\footnotesize 세 손실 열은 평균 QLIKE(무차원)이며 개선율이 아니다. 음수 예측 수는 투영 전 M2의 값이고, M1은 모두 양수다. M2는 $f=\max(\widehat G,\eta)$로 투영한다. 극단적인 QLIKE는 소수의 비양수 예측과 하한 선택에 민감하므로 이를 잠재 예측력의 크기로 해석하지 않는다.\end{minipage}
+\end{table}

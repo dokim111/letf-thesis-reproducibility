@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "이 재현자료를 이용할 때에는 자료 버전과 커밋 SHA를 함께 기록해 주세요."
+type: software
+title: "레버리지 ETF 경제학·수리과학·통계학 논문 재현자료"
+authors:
+  - family-names: "김"
+    given-names: "도연"
+version: "2026-11-19-v22"
+date-released: "2026-11-19"
+repository-code: "https://github.com/dokim111/letf-thesis-reproducibility"
+url: "https://github.com/dokim111/letf-thesis-reproducibility"
+abstract: "레버리지 ETF 노출 조정액, 로그감쇠 경계와 극값 전이, 비대칭 정보의 예측력과 사양 민감도를 계산하는 코드 및 집계 결과. KRX 원자료는 별도 확보가 필요하다."
+keywords:
+  - "leveraged ETF"
+  - "reproducibility"
+  - "log drag"
+  - "forecast evaluation"
